@@ -1,0 +1,107 @@
+/* Tipografías base */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* Hero */
+.hero {
+  background: #e9e1d4;
+  text-align: center;
+  padding: 2rem;
+}
+.hero .logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+.hero .titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+.hero .subtitulo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: #555;
+}
+.hero .hero-img {
+  max-width: 400px;
+  margin-top: 1rem;
+  border-radius: 12px;
+}
+
+/* Secciones */
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+section p {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  font-size: 1.1rem;
+}
+.script {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: #9c6b63;
+}
+
+/* Servicios */
+.servicios ul {
+  list-style: none;
+  padding: 0;
+}
+.servicios li {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+/* Portafolio */
+.portafolio .galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.portafolio img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.portafolio img:hover {
+  transform: scale(1.05);
+}
+
+/* Contacto */
+.contacto ul {
+  list-style: none;
+  padding: 0;
+}
+.contacto li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+.contacto a {
+  color: #9c6b63;
+  text-decoration: none;
+}
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
